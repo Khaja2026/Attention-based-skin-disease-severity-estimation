@@ -1,0 +1,24 @@
+# PSASINet - Professional Skin Disease Classification System
+# Core Dependencies for Production Deployment
+
+# Deep Learning Framework
+tensorflow>=2.10.0,<2.16.0
+
+# Web Framework
+flask>=2.2.0,<3.0.0
+werkzeug>=2.2.0,<3.0.0
+
+# Image Processing
+pillow>=9.0.0,<11.0.0
+opencv-python>=4.6.0,<5.0.0
+
+# Scientific Computing
+numpy>=1.21.0,<2.0.0
+matplotlib>=3.5.0,<4.0.0
+scikit-learn>=1.1.0,<2.0.0
+
+# Data Processing
+pandas>=1.5.0,<3.0.0
+
+# Optional: For dataset management
+kagglehub>=0.2.0,<1.0.0
